@@ -1,3 +1,9 @@
 .btn-color{
-    background: #B68C5A !important;
+    background: #B68C5A !important; 
+    color: white !important;
+}
+.banner-img{
+    background-image: url(../images/banner.png);
+    height: 100vh;
+    width: auto;
 }
