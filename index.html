@@ -37,7 +37,28 @@
             <a class="nav-link" href="#">Contact Us <i class="fa-solid fa-greater-than"></i></a>
           </li>
           </ul>
-          <button class="btn btn-color" type="submit">Free Consultation</button>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-color" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Free Consultation
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Customer Care 24/7</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
   </nav>
@@ -45,21 +66,21 @@
     <!-- main section -->
     <main>
 <!-- banner section -->
- <section>
+ <section class="py-5">
         <div class="banner-img d-flex justify-content-center align-items-center">
             <div class="text-center">
                 <h1 class="display-3 fw-bold text-white">We Provide Effective<br>Legal Solutions</h1>
             <p class="text-white">There are many variations of passages of Life-style available, but the majority<br>have suffered alteration in some form, by injected humour.</p>
                 <button class="px-5 py-2 rounded border-0">Search your services</button>
-                <button class="btn-color px-4 py-2 rounded border-0">Search</button>
+                <button class="btn-color ms-3 px-4 py-2 rounded border-0">Search</button>
                 </div>
          </div>
  </section>
 <!-- practice area section -->
-<section class="container-fluid my-5">
+<section class="container-fluid mb-5 py-5">
     <h1 class="text-center mb-3">The Legal Practice Area</h1>
     <p class="text-center mb-5">There are many variations of passages of Life-style available, but the majority have suffered<br>alteration in some form, by injected humour.</p>
-        <div class="row row-cols-1 row-cols-lg-3 gy-3 mx-auto ms-5">
+        <div class="row row-cols-1 row-cols-lg-3 g-3 mx-auto">
         <div class="col">
             <div class="card text-center" style="width:sm-100 lg- 18rem;">
                 <img class="w-25 mx-auto mt-3" src="./images/business.png" class="card-img-top" alt="...">
@@ -101,12 +122,12 @@
               </div>
             </div>
             <div class="col">
-            <div class="card text-center" style="width:sm-100 lg- 18rem; ">
+            <div class="card text-center" style="width:sm-100 lg- 18rem;">
                 <img class="w-25 mx-auto mt-3" src="./images/divorce.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Divorce Law</h5>
                   <p class="card-text">There are many variations of passages of Life-style available, but the majority have suffered alteration in some form, by injected humour.</p>
-                  <img src="./images/Frame.png" alt="">
+                  <img class="py-3" src="./images/Frame.png" alt="">
                 </div>
               </div>
             </div>
@@ -123,7 +144,7 @@
     </div>
 </section>
 <!-- Client Say Section -->
-<section class="container-fluid my-5">
+<section class="container-fluid">
 <h1 class="text-center mb-3">What Our Client Say</h1>
 <p class="text-center mb-3">There are many variations of passages of Life-style available, but the majority have<br>suffered alteration in some form, by injected humour.</p>
     <!-- carousel -->
@@ -163,7 +184,6 @@
             <p class="text-white">Contrary to popular belief, Life-style is not simply random text. It has roots in a piece of classical Latin<br>literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney<br>College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
                 </div>
          </div>
-
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -177,7 +197,7 @@
     </div>
 </section>
 <!-- FAQ section -->
-<section class="mt-5 py-5 px-3">
+<section class="my-5 py-5 px-3">
   <h1 class="text-center my-3">Frequently Asked Any Questions</h1>
   <p class="text-center mb-3">There are many variations of passages of Life-style available, but the majority have<br>suffered alteration in some form, by injected humour.</p>
 <div class="row row-cols-1 row-cols-md-2 mt-3 g-4">
@@ -240,13 +260,80 @@
   </div>
 </div>
 </section>
-
+<!-- contact section -->
+<section class="py-5">
+  <h1 class="text-center">Contact With Us</h1>
+  <p class="text-center pb-5">There are many variations of passages of Life-style available, but the majority have<br>suffered alteration in some form, by injected humour.</p>
+  <div class="row row-cols-md-2">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="cols-3 gy-2">
+          <div class="card text-center bg-dark-subtle">
+            <img class="w-25 mx-auto" src="./images/address.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Address</h5>
+              <p class="card-text">A108 Adam Street,<br>New York, NY 535022</p>
+            </div>
+          </div>
+        </div>
+        <div class="cols-3 gy-2">
+          <div class="card text-center bg-dark-subtle">
+            <img class="w-25 mx-auto" src="./images/call.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Call Us</h5>
+              <p class="card-text">+88 01750 00 00 00<br>+88 01750 00 00 00</p>
+            </div>
+          </div>
+        </div>
+        <div class="cols-3 gy-2">
+          <div class="card text-center bg-dark-subtle">
+            <img class="w-25 mx-auto" src="./images/email.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Email Us</h5>
+              <p class="card-text">info@gmail.com<br>info@gmail.com</p>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="cols-3 gy-2">
+          <div class="card text-center bg-dark-subtle">
+            <img class="w-25 mx-auto" src="./images/time.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Working Hours</h5>
+              <p class="card-text">Mon-Fri: 9AM to 5PM<br>Sunday: 9AM to 1 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     <div>
+      <div class="form-floating my-3">
+        <input type="email" class="form-control bg-dark-subtle" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Your Name</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="password" class="form-control bg-dark-subtle" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Your Email</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="password" class="form-control bg-dark-subtle" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Subject</label>
+      </div>
+      <div class="form-floating mb-3">
+        <textarea class="form-control bg-dark-subtle" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Your Message</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="password" class="form-control btn-color text-center" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Send Message</label>
+      </div>
+    </div>
+  </div>
+</section>
 </main>
     <!-- footer section -->
     <footer>
-<section class="bg-dark">
+<section class="bg-dark pt-5">
 <div class="container py-5">
-  <div class="row text-white">
+  <div class="row g-4 text-white">
     <div class="col-md-4">
       <img class="text-white py-4" src="./images/logo.png" alt="">
       <p class="text-white">There are many variations of<br>passages of Life-style<br>available, but the majority have<br>suffered alteration in some<br>form, by injected humour.</p>
@@ -270,7 +357,7 @@
     </div>
     <div class="col-md-4">
       <h5 class="py-4">Subscribe</h5>
-      <p>Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+      <p>Subscribe for our latest<br>& Articles. We Won’t Give You<br>Spam Mails</p>
       <div class="input-group mb-3">
         <input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary btn-color" type="button" id="button-addon2"><i class="fa-regular fa-paper-plane"></i></button>
@@ -278,7 +365,6 @@
     </div>
   </div>
 </div>
-
 </section>
     </footer>
     <!-- bs js file -->
